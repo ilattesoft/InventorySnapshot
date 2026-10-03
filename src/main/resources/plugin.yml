@@ -1,0 +1,15 @@
+name: InventorySnapshot
+version: '${version}'
+
+main: me.iLatteSoft.inventorySnapshot.InventorySnapshot
+api-version: '1.21.1'
+load: POSTWORLD
+
+commands:
+  inventorysnapshots:
+    aliases:
+      - invsnap
+      - insn
+    permission: inventorysnapshots.admin
+    permission-message: "&cYou don't have permission."
+    description: "Administrator command for InventorySnapshots plugin."

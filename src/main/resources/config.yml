@@ -1,0 +1,24 @@
+# Automatic backup of inventory.
+auto-backup:
+  enabled: true
+  interval: 600 # Time between automatic backup. (Seconds)
+
+backup-categories:
+  death: true
+  join: true
+  quit: true
+
+# Time format.
+date-format: yyyy/MM/dd HH:mm:ss # Time format in messages.
+
+# Purge old data from database.
+cleanup-after:
+  enabled: true
+  interval: 360 # Time between each clean up. (Hours)
+
+# Database.
+database:
+  type: H2
+
+# For whatever reason do not change.
+config-version: 1
